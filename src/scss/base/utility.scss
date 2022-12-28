@@ -1,0 +1,23 @@
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 2rem;
+}
+.container h3 {
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
